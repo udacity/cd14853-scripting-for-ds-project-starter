@@ -1,13 +1,9 @@
 {
-  "product": {
-    "id": "P004",
-    "name": "Yoga Mat"
-  },
-  "category": "fitness",
-  "price": 29.99,
+  "product_id": "P005",
+  "name": "Laptop Bag",
+  "category": "accessories",
+  "price": 45.00,
   "metadata": {
-    "color": "green",
-    "stock": 50,
-    "created": "2025-01-12"
-  }
+    "color": "gray",
+    "stock": 70
 }
