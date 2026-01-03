@@ -30,8 +30,6 @@ def log(message):
 CLEAN_DIR = "clean"
 DATASET_DIR = "dataset"
 OUTPUT_FILE = os.path.join(DATASET_DIR, "clean_products.csv")
-ARCHIVE_DIR = "archive"
-ARCHIVE_CLEAN_DIR = os.path.join(ARCHIVE_DIR, "clean")
 
 # Create dataset directory if it doesn't exist
 os.makedirs(DATASET_DIR, exist_ok=True)
@@ -92,17 +90,6 @@ for filename in os.listdir(CLEAN_DIR):
 
 # TODO:
 # Write a log entry indicating that the dataset was written successfully.
-
-# TODO:
-# Move the original file to the archive/ directory.
-#
-# archive_path = ...
-
-
-# TODO:
-# Write a log entry indicating the file was archived.
-#
-# log("...")
 
 # TODO:
 # Write a log entry indicating that the merge process is complete.
