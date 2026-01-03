@@ -29,11 +29,9 @@ def log(message):
 
 RAW_DIR = "raw"
 CLEAN_DIR = "clean"
-ARCHIVE_DIR = "archive"
 VALID_FILES = "valid_files.txt"
 
 os.makedirs(CLEAN_DIR, exist_ok=True)
-os.makedirs(ARCHIVE_DIR, exist_ok=True)
 
 # ---------- load valid file list ----------
 
@@ -132,16 +130,6 @@ def normalize_json(data):
     #
     # log("...")
 
-    # TODO:
-    # Move the original file to the archive/ directory.
-    #
-    # archive_path = ...
-
-
-    # TODO:
-    # Write a log entry indicating the file was archived.
-    #
-    # log("...")
 
 # TODO:
 # Write a log entry indicating that processing is complete.
