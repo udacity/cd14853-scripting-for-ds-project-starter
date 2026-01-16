@@ -37,7 +37,7 @@ Shell scripts rely only on standard Unix utilities.
 1.	Clone or download the project starter repository.
 2.	Open a terminal and navigate into the project directory.
 3.	Install Python dependencies: `pip3 install pandas` (**Only if the pandas is not already installed on the env**)
-4.  Mkae shell scripts executable: `chmod +x *.sh`
+4.  Make shell scripts executable: `chmod +x *.sh`
 
 ## Testing
 
